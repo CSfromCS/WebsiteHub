@@ -1,4 +1,6 @@
-theme: none;
+---
+layout: help
+---
 
 <style>
   .box{
