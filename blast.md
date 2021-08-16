@@ -1,3 +1,5 @@
+theme: none;
+
 <style>
   .box{
     float:left;
