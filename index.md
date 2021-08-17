@@ -42,6 +42,12 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 ### Test Search Function
 
 <input type="text" id="search-input" placeholder="search posts..">
+<button onclick="SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '/search.json'
+}).search('the')">Search</button>
 <br/>
+<p> Results </p>
 <div id="results-container"></div>
-<button onclick="sjs.search('the')">Search</button>
+
