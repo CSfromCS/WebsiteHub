@@ -1,4 +1,6 @@
-
+---
+redirect_to: https://sites.google.com/view/ateneo-code-database-1819/home
+---
 
 ## Welcome to GitHub Pages
 
