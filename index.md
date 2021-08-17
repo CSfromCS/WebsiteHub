@@ -1,15 +1,4 @@
-<script>
-SimpleJekyllSearch({
-  searchInput: document.getElementById('search-input'),
-  resultsContainer: document.getElementById('results-container'),
-  json: '/search.json',
-  searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
-  noResultsText: 'No results found',
-  limit: 10,
-  fuzzy: false,
-  exclude: ['Welcome']
-})
-</script>
+
 
 ## Welcome to GitHub Pages
 
@@ -55,3 +44,4 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 <input type="text" id="search-input" placeholder="search posts..">
 <br/>
 <div id="results-container"></div>
+<button onclick="sjs.search('the')">Search</button>
